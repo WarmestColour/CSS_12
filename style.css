@@ -1,0 +1,66 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+body {
+    background-color: #FFE8D1;
+}
+
+div {
+    margin: 20px;
+    max-width: 100%;
+}
+
+h3 {
+    color: #FFFFFF;
+
+}
+
+p {
+    color: #568EA3;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+        background-color: #E1F2FE;
+    }
+
+    h3 {
+        color: #F08080;
+    }
+
+    div {
+        max-width: calc((100% / 2) - 40px);
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    body {
+        background-color: #F5EE9E;
+    }
+
+    h3 {
+        color: #2D728F;
+    }
+
+    div {
+        max-width: calc((100% / 3) - 40px);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: #FFE8D1;
+    }
+
+    h3 {
+        color: #FFFFFF;
+    }
+
+    div {
+        max-width: calc((100% / 4) - 40px);
+    }
+}
